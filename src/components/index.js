@@ -1,3 +1,5 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-export { Navbar, Hero };
+import Features from "./Features";
+
+export { Navbar, Hero, Features };

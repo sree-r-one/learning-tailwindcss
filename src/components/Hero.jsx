@@ -4,20 +4,20 @@ import { illustrationIntro } from "../assets";
 const Hero = () => {
   return (
     <section id="hero">
-      <div className="container mx-auto mt-10 flex flex-col-reverse space-y-0 px-1 md:flex-row">
+      <div className="md:flex-row md:space-y-0 md:mt-14 container mx-auto mt-5 flex flex-col-reverse space-y-12 px-1">
         {/* left item */}
-        <div className="mb-32 flex flex-col space-y-12 md:w-1/2">
-          <h1 className="max-w-md text-center text-4xl font-bold md:text-left md:text-5xl">
+        <div className="md:w-1/2 mb-32 flex flex-col space-y-12">
+          <h1 className="md:text-left md:text-5xl max-w-md text-center text-4xl font-bold">
             Bring Everyone Together to Build Better Products
           </h1>
-          <p className="max-w-md text-center md:text-left">
+          <p className="md:text-left max-w-md text-center">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
-          <div className="flex justify-center md:justify-start">
+          <div className="md:justify-start flex justify-center">
             <a
               href="#"
-              className="rounded-full bg-brightRed px-6 py-4 text-white hover:bg-brightRedLight"
+              className="bg-brightRed hover:bg-brightRedLight rounded-full px-6 py-4 text-white"
             >
               Get Started
             </a>
