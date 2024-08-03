@@ -10,7 +10,7 @@ import {
 
 const App = () => {
   return (
-    <div className="bg-gray-100">
+    <div>
       <Navbar />
       <div className="mx-auto max-w-6xl space-y-12">
         <Hero />

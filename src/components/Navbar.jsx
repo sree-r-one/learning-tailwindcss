@@ -39,6 +39,8 @@ const Navbar = () => {
             Chat
           </a>
         </div>
+
+        {/* Hamburger Icon */}
       </div>
     </nav>
   );
