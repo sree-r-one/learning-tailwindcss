@@ -7,6 +7,12 @@ const App = () => {
       <Navbar />
       <div className="mx-auto mt-20 max-w-6xl space-y-12 px-4">
         <Home />
+        <Footer />
+        <Footer />
+        <Footer />
+        <Footer />
+        <Footer />
+        <Footer />
       </div>
     </div>
   );
