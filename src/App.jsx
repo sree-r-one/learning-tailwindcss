@@ -1,11 +1,14 @@
 import React from "react";
-import { Navbar, Hero, Features } from "./components";
+import { Navbar, Hero, Features, Testimonials } from "./components";
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Features />
+      <div className="mx-auto max-w-6xl">
+        <Hero />
+        <Features />
+        <Testimonials />
+      </div>
     </div>
   );
 };
