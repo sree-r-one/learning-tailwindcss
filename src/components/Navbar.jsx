@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu items  */}
-        <div className="hidden items-center justify-center space-x-6 md:flex">
+        <div className="md:flex hidden items-center justify-center space-x-6">
           <a href="# " className="hover:text-darkGrayishBlue">
             Pricing
           </a>
@@ -34,14 +34,23 @@ const Navbar = () => {
           {/* Button */}
           <a
             href="#"
-            className="rounded-full bg-brightRed px-6 py-2 text-white hover:bg-brightRedLight"
+            className="bg-brightRed hover:bg-brightRedLight rounded-full px-6 py-2 text-white"
           >
             Chat
           </a>
         </div>
 
         {/* Hamburger Icon */}
+        <button
+          id="menu-btn"
+          className="hamburger md:hidden block focus:outline-none"
+        >
+          <span className="hamburger-top"></span>
+          <span className="hamburger-middle"></span>
+          <span className="hamburger-bottom"></span>
+        </button>
       </div>
+      {/* <!-- Mobile Menu --> */}
     </nav>
   );
 };
