@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div className="">
       <Navbar />
-      <Footer />
+      <div className="mt-20 bg-blue-400"></div>
     </div>
   );
 };
