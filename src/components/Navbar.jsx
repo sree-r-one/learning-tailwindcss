@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu items  */}
-        <div className="md:flex hidden space-x-6">
+        <div className="hidden items-center justify-center space-x-6 md:flex">
           <a href="# " className="hover:text-darkGrayishBlue">
             Pricing
           </a>
@@ -31,15 +31,14 @@ const Navbar = () => {
           <a href="#" className="hover:text-darkGrayishBlue">
             Pricing
           </a>
+          {/* Button */}
+          <a
+            href="#"
+            className="rounded-full bg-brightRed px-6 py-2 text-white hover:bg-brightRedLight"
+          >
+            Chat
+          </a>
         </div>
-
-        {/* Button */}
-        <a
-          href="#"
-          className="bg-brightRed hover:bg-brightRedLight rounded-full px-6 py-2 text-white"
-        >
-          Chat
-        </a>
       </div>
     </nav>
   );
