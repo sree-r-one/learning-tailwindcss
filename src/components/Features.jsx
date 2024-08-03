@@ -2,7 +2,7 @@ import React from "react";
 
 const Heading = ({ number, heading, paragraph }) => {
   return (
-    <div className="flex flex-col space-y-3">
+    <div className="flex flex-col space-y-3 rounded-lg bg-white p-2 shadow">
       <div className="flex items-start space-x-2">
         <div className="bg-brightRed items-start rounded-full px-4 py-2 text-white">
           {number}
@@ -21,7 +21,7 @@ const Heading = ({ number, heading, paragraph }) => {
 const Features = () => {
   return (
     <section id="features">
-      <div className="md:mt-12 md:flex-row md:space-y-0 container mx-auto mt-8 flex flex-col space-y-12 px-5">
+      <div className="md:mt-12 md:flex-row md:space-y-0 container mx-auto mt-8 flex flex-col space-y-12 rounded-lg bg-white p-10 shadow-sm">
         {/* Whats different */}
         <div className="md:w-1/2 flex flex-col space-y-12">
           {/* max-w-md text-center text-4xl font-bold md:text-left md:text-5xl */}

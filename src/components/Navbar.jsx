@@ -3,7 +3,7 @@ import { logo } from "../assets";
 
 const Navbar = () => {
   return (
-    <nav className="container relative mx-auto rounded-b-lg bg-gray-200 px-6 py-4">
+    <nav className="relative mx-auto rounded-b-lg bg-white px-6 py-4 drop-shadow-lg">
       {/* flex container */}
       <div className="flex items-center justify-between">
         {/* Logo */}

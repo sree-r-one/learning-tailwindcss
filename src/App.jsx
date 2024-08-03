@@ -1,15 +1,24 @@
 import React from "react";
-import { Navbar, Hero, Features, Testimonials, CTA } from "./components";
+import {
+  Navbar,
+  Hero,
+  Features,
+  Testimonials,
+  CTA,
+  Footer,
+} from "./components";
+
 const App = () => {
   return (
-    <div>
+    <div className="bg-gray-100">
       <Navbar />
-      <div className="md:space-y-0 mx-auto max-w-6xl space-y-12">
+      <div className="mx-auto max-w-6xl space-y-12">
         <Hero />
         <Features />
         <Testimonials />
-        <CTA />
       </div>
+      <CTA />
+      <Footer />
     </div>
   );
 };

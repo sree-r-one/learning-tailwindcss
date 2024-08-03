@@ -8,7 +8,7 @@ import {
 
 const Testimonial = ({ img, name, description }) => {
   return (
-    <div className="m-2 flex flex-col items-center space-y-6 rounded-lg bg-gray-100 p-6">
+    <div className="m-2 flex flex-col items-center space-y-6 rounded-lg bg-gray-100 p-6 drop-shadow-md">
       <img src={img} alt={name} className="-mt-14 w-16" />
       <h5 className="text-lg font-bold">{name}</h5>
       <p className="text-darkGrayishBlue text-center text-sm">{description}</p>
@@ -18,9 +18,12 @@ const Testimonial = ({ img, name, description }) => {
 
 const Testimonials = () => {
   return (
-    <section id="testimonials">
+    <section
+      id="testimonials"
+      className="mt-32 rounded-lg bg-white p-10 shadow-sm"
+    >
       {/* Container for heading and testimonial blocks */}
-      <div className="mt-32 max-w-6xl">
+      <div className="max-w-6xl rounded">
         <h2 className="pb-12 text-center text-4xl font-bold">
           What's Different About Manage
         </h2>
