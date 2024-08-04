@@ -8,7 +8,7 @@ import {
 
 const Testimonial = ({ img, name, description }) => {
   return (
-    <div className="m-2 flex flex-col items-center space-y-6 rounded-lg bg-gray-100 p-6 drop-shadow-md">
+    <div className="m-2 flex flex-col items-center space-y-6 rounded-lg bg-lutapiBlueSupVeryLight p-6 drop-shadow-md">
       <img src={img} alt={name} className="-mt-14 w-16" />
       <h5 className="text-lg font-bold">{name}</h5>
       <p className="text-darkGrayishBlue text-center text-sm">{description}</p>
@@ -56,7 +56,7 @@ const Testimonials = () => {
       <div className="flex items-center justify-center">
         <a
           href="#"
-          className="bg-brightRed hover:bg-brightRedLight rounded-full px-6 py-2 text-white"
+          className="bg-lutapiBlue hover:bg-brightRedLight rounded-full px-6 py-2 text-white"
         >
           Get Started
         </a>

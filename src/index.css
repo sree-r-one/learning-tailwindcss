@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    background-image: url('assets/bg-tablet-pattern.svg');
+    background-image: url('assets/bg-tablet-pattern-purple.png');
     background-repeat: repeat;
     background-size: 800px;
     background-position: 90% -25%;

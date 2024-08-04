@@ -10,3 +10,4 @@ export { default as iconInstagram } from "../assets/icon-instagram.svg";
 export { default as iconPinterest } from "../assets/icon-pinterest.svg";
 export { default as iconTwitter } from "../assets/icon-twitter.svg";
 export { default as iconYoutube } from "../assets/icon-youtube.svg";
+export { default as logoLutapi } from "../assets/lutapi-logo-light.png";

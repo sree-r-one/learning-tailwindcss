@@ -19,7 +19,7 @@ const Icon = ({ icon, description }) => {
 const QuickLinks = () => {
   return (
     <div>
-      <h5 className="text-brightRedLight mb-2 font-bold">Quick Links</h5>
+      <h5 className="text-lutapiBlueVeryLight mb-2 font-bold">Quick Links</h5>
       <div className="flex flex-col space-y-1">
         <a href="#" className="hover:text-brightRed text-brightRedSupLight">
           Industries Served
@@ -41,7 +41,7 @@ const QuickLinks = () => {
 const Company = () => {
   return (
     <div>
-      <h5 className="text-brightRedLight mb-2 font-bold">Quick Links</h5>
+      <h5 className="text-lutapiBlueVeryLight mb-2 font-bold">Quick Links</h5>
       <div className="flex flex-col space-y-1">
         <a href="#" className="hover:text-brightRed text-brightRedSupLight">
           Contact Us
@@ -60,7 +60,7 @@ const Company = () => {
 const Services = () => {
   return (
     <div>
-      <h5 className="text-brightRedLight mb-2 font-bold">Services</h5>
+      <h5 className="text-lutapiBlueVeryLight mb-2 font-bold">Services</h5>
       <div className="flex flex-col space-y-1">
         <a href="#" className="hover:text-brightRed text-brightRedSupLight">
           AI

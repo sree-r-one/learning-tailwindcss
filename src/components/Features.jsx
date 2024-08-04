@@ -4,7 +4,7 @@ const Heading = ({ number, heading, paragraph }) => {
   return (
     <div className="flex flex-col space-y-3 rounded-lg bg-white p-2 shadow">
       <div className="flex items-start space-x-2">
-        <div className="bg-brightRed items-start rounded-full px-4 py-2 text-white">
+        <div className="bg-lutapiBlue items-start rounded-full px-4 py-2 text-white">
           {number}
         </div>
         {/* Heading */}

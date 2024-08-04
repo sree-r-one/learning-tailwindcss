@@ -1,5 +1,5 @@
 import React from "react";
-import { logo } from "../assets";
+import { logo,logoLutapi } from "../assets";
 
 const Navbar = () => {
   return (
@@ -8,33 +8,33 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="pt-2">
-          <img src={logo} alt="" />
+          <img src={logoLutapi} className="h-8" alt="" />
         </div>
 
         {/* Menu items  */}
         <div className="md:flex hidden items-center justify-center space-x-6">
-          <a href="# " className="hover:text-darkGrayishBlue">
+          <a href="# " className="hover:text-lutapiBlueDark">
             Pricing
           </a>
-          <a href="#" className="hover:text-darkGrayishBlue">
+          <a href="#" className="hover:text-lutapiBlueDark">
             Product
           </a>
-          <a href="#" className="hover:text-darkGrayishBlue">
+          <a href="#" className="hover:text-lutapiBlueDark">
             About Us
           </a>
-          <a href="#" className="hover:text-darkGrayishBlue">
+          <a href="#" className="hover:text-lutapiBlueDark">
             Careers
           </a>
-          <a href="#" className="hover:text-darkGrayishBlue">
+          <a href="#" className="hover:text-lutapiBlueDark">
             Community
           </a>
-          <a href="#" className="hover:text-darkGrayishBlue">
+          <a href="#" className="hover:text-lutapiBlueDark">
             Pricing
           </a>
           {/* Button */}
           <a
             href="#"
-            className="bg-brightRed hover:bg-brightRedLight rounded-full px-6 py-2 text-white"
+            className="bg-lutapiBlue hover:bg-lutapiBlueLight rounded-full px-6 py-2 text-white"
           >
             Chat
           </a>
